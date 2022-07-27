@@ -11,6 +11,7 @@ const newTool = [
         link2: 'https://www.w3schools.com/js/',
         resource3: 'MDN',
         link3: 'https://developer.mozilla.org/pt-BR/docs/Web/JavaScript',
+        filterAtributes:['language','developer','popular','begginers','open'],
     },
     {
         id: 1,
@@ -24,6 +25,8 @@ const newTool = [
         link2: 'https://reactjs.org/',
         resource3: 'W3schools',
         link3: 'https://www.w3schools.com/whatis/whatis_react.asp',
+        filterAtributes:['framework','developer','designer','popular','open'],
+
     },
     {
         id: 2,
@@ -37,6 +40,7 @@ const newTool = [
         link2: 'https://angular.io/',
         resource3: 'W3schools',
         link3: 'https://www.w3schools.com/angular/angular_intro.asp',
+        filterAtributes:['framework','developer','popular','open'],
     },
     {
         id: 3,
@@ -50,6 +54,8 @@ const newTool = [
         link2: 'https://vuejs.org/',
         resource3: 'W3schools',
         link3: 'https://www.w3schools.com/whatis/whatis_vue.asp',
+        filterAtributes:['framework','developer','designer','open'],
+
       },
     {
         id: 4,
@@ -63,6 +69,8 @@ const newTool = [
         link2: 'https://deno.land/',
         resource3: '',
         link3: '',
+        filterAtributes:['developer','open'],
+
     },
     {
         id: 5,
@@ -76,6 +84,8 @@ const newTool = [
         link2: 'https://www.w3schools.com/css/',
         resource3: 'MDN',
         link3: 'https://developer.mozilla.org/en-US/docs/Web/CSS',
+        filterAtributes:['language','designer','popular','open', 'begginers'],
+
     },
     {
         id: 6,
@@ -89,6 +99,7 @@ const newTool = [
         link2: 'https://nodejs.org/en/',
         resource3: 'W3schools',
         link3: 'https://www.w3schools.com/nodejs/nodejs_intro.asp',
+        filterAtributes:['developer','popular','open'],
     },
     {
         id: 7,
@@ -102,6 +113,7 @@ const newTool = [
         link2: 'https://www.w3schools.com/html/',
         resource3: 'MDN',
         link3: 'https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics',
+        filterAtributes:['language','designer','popular','open','begginers'],
     },
     {
         id: 8,
@@ -115,6 +127,7 @@ const newTool = [
         link2: 'https://www.w3schools.com/php/',
         resource3: 'MDN',
         link3: 'https://developer.mozilla.org/en-US/docs/Glossary/PHP',
+        filterAtributes:['language','developer','popular','open','begginers'],
     },
     {
         id: 9,
@@ -128,6 +141,7 @@ const newTool = [
         link2: 'https://getbootstrap.com/',
         resource3: 'MDN',
         link3: 'https://developer.mozilla.org/en-US/docs/Glossary/Bootstrap',
+        filterAtributes:['designer','popular','open','begginers'],
     },
     {
         id: 10,
@@ -141,6 +155,7 @@ const newTool = [
         link2: 'https://www.typescriptlang.org/',
         resource3: 'MDN',
         link3: 'https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Svelte_TypeScript#why_typescript',
+        filterAtributes:['language','developer','open'],
     },
     {
         id: 11,
@@ -154,6 +169,8 @@ const newTool = [
         link2: 'https://jquery.com/',
         resource3: 'MDN',
         link3: 'https://developer.mozilla.org/en-US/docs/Glossary/jQuery',
+        filterAtributes:['developer','open'],
+
     },
 
 ]

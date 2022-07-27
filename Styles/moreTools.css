@@ -74,7 +74,6 @@ html,body
 .work-modals{
   display:inline-block;
   margin: 5px;
-
 }
 
 .card{
@@ -176,6 +175,27 @@ html,body
     cursor: pointer;
 }
 
+/* Filter */
+
+.filterWrap{
+    display: flex;
+    width:fit-content;
+    padding: 7px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.623);
+    border-radius: 20px;
+
+    background-color: var(--main-card-color);
+
+}
+.filterWrap:hover{
+    background-color: var(--main-card-hover);
+    cursor: pointer;
+}
+
+.filterFont{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
 
 @media  (min-width: 750px) {
     .gallery {

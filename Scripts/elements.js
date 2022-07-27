@@ -3,11 +3,11 @@ const displaySearchBar = () => {
     let searchBar = `
     <div class="p-1 bg-light rounded rounded-pill shadow-sm mb-4 mt-2">
     <div class="input-group">
-        <button id="button-addon1" onclick="alertComingSoon()" type="submit" class="btn btn-link text-primary"><i
+        <button id="button-addon1" onclick="showMoreTools()" type="submit" class="btn btn-link text-primary"><i
                 class="fa-solid fa-magnifying-glass"></i></button >
         <input id="searchInput" type="search" placeholder="What're you searching for?"
             aria-describedby="button-addon1" class="form-control border-0 bg-light">
-        <div class="input-group-append" onclick="alertComingSoon()">
+        <div class="input-group-append" onclick="showMoreTools()">
             <i class="fa-solid fa-microphone"></i>
         </div>
     </div>
@@ -25,7 +25,7 @@ const displaylastVisitedTools = () => {
     <div class="gallery horizontal-gallery shadow p-3">
 
         <div class="work-modals">
-            <div class="card last-seen" >
+            <div class="card last-seen " >
 
                 <img class="card-img-top" onclick="showToolPage(${newTool[7].id})"
                     src="${newTool[7].icon}" />
@@ -37,7 +37,7 @@ const displaylastVisitedTools = () => {
         </div>
 
         <div class="work-modals">
-            <div class="card last-seen">
+            <div class="card last-seen ">
 
             <img class="card-img-top" onclick="showToolPage(${newTool[5].id})"
             src="${newTool[5].icon}" />
@@ -49,7 +49,7 @@ const displaylastVisitedTools = () => {
         </div>
 
         <div class="work-modals">
-            <div class="card last-seen">
+            <div class="card last-seen ">
 
             <img class="card-img-top" onclick="showToolPage(${newTool[0].id})"
                     src="${newTool[0].icon}" />
@@ -232,7 +232,7 @@ const displayLoginField = () => {
         </div>
 
     </form>
-    <p class="text-center mt-3">Not a member? <a onclick="displayRegisterField()" data-toggle="tab" href="#signup">Sign Up</a></p>
+    <p class="text-center mt-3">Not a member?<span onclick="displayRegisterField()" style="cursor: pointer" ><a data-toggle="tab" href="" style="pointer-events: none">Sign Up</a></span> </p>
     <p class="text-center" onclick="display()"><a data-toggle="tab" href="#signup">Sign In as a guest</a></p>
 
 </div>
