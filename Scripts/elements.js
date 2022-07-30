@@ -3,13 +3,14 @@ const displaySearchBar = () => {
     let searchBar = `
     <div class="p-1 bg-light rounded rounded-pill shadow-sm mb-4 mt-2">
     <div class="input-group">
-        <button id="button-addon1" onclick="showMoreTools()" type="submit" class="btn btn-link text-primary"><i
-                class="fa-solid fa-magnifying-glass"></i></button >
+        <div class="input-group-append ml-1" onclick="showMoreTools()">
+        <i class="fa-solid fa-microphone"></i>
+        </div>
         <input id="searchInput" type="search" placeholder="What're you searching for?"
             aria-describedby="button-addon1" class="form-control border-0 bg-light">
-        <div class="input-group-append" onclick="showMoreTools()">
-            <i class="fa-solid fa-microphone"></i>
-        </div>
+        <button id="button-addon1" onclick="showMoreTools()" class="btn btn-link text-primary">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        </button > 
     </div>
 </div>
 `
@@ -114,6 +115,7 @@ const showToolPage = (id) => {
             
                                     <div class="ms-3" style="margin-top: 100px;">
                                         <h1>${tool.language}</h1>
+                                        <p class="starText">Community rating</p>
                                         <img src="https://cdn-icons-png.flaticon.com/512/159/159617.png"  class="star" />
                                         <img src="https://cdn-icons-png.flaticon.com/512/159/159617.png"  class="star"/>
                                         <img src="https://cdn-icons-png.flaticon.com/512/159/159617.png"  class="star"/>
@@ -143,7 +145,7 @@ const showToolPage = (id) => {
                                     </div>
             
                                     <div class="d-flex justify-content-between align-items-center mb-4">
-                                        <p class="lead fw-normal mb-0">People who use HTML also use...</p>
+                                        <p class="lead fw-normal mb-0">People who use ${tool.language} also use...</p>
                                     </div>
                                     <div class="row g-2">
                                         <!-- suggestion -->

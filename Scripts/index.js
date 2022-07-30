@@ -202,4 +202,5 @@ const showMoreTools = () =>{
         $(".PopularTools").html(filteredToolsHTML)    
     }
 
-    displayLoginField()
+/*     displayLoginField()
+ */    displayLoginField()

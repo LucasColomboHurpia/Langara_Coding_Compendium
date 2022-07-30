@@ -77,4 +77,12 @@ body{background-color: rgb(231, 231, 231);}
 .star{
     width: 20px;
     display: inline-block;
+    z-index: 1;
+}
+
+.starText{
+    font-family: var(--bs-font-sans-serif);
+    font-size: 11px;
+    margin-bottom: 0;
+    font-weight: bold;
 }
